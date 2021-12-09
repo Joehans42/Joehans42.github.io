@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Social Graphs 2021</title>
+    <title>Wikispeedia as Social Graphs</title>
     <link>https://joehans42.github.io/</link>
-    <description>Recent content on Social Graphs 2021</description>
+    <description>Recent content on Wikispeedia as Social Graphs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Dec 2021 23:57:44 +0100</lastBuildDate><atom:link href="https://joehans42.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +19,7 @@
     <item>
       <title>The Data</title>
       <link>https://joehans42.github.io/posts/first-post/</link>
-      <pubDate>Wed, 08 Dec 2021 20:09:52 +0100</pubDate>
+      <pubDate>Thu, 09 Dec 2021 20:09:52 +0100</pubDate>
       
       <guid>https://joehans42.github.io/posts/first-post/</guid>
       <description></description>
