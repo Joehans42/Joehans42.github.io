@@ -6,9 +6,18 @@
     <description>Recent content in Posts on Social Graphs 2021</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Dec 2021 20:09:52 +0100</lastBuildDate><atom:link href="https://joehans42.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Dec 2021 23:57:44 +0100</lastBuildDate><atom:link href="https://joehans42.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The data</title>
+      <title>Analysis</title>
+      <link>https://joehans42.github.io/posts/analysis/</link>
+      <pubDate>Thu, 09 Dec 2021 23:57:44 +0100</pubDate>
+      
+      <guid>https://joehans42.github.io/posts/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Data</title>
       <link>https://joehans42.github.io/posts/first-post/</link>
       <pubDate>Wed, 08 Dec 2021 20:09:52 +0100</pubDate>
       
