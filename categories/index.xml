@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Wikispeedia as Social Graphs</title>
+    <title>Categories on Project B</title>
     <link>https://joehans42.github.io/categories/</link>
-    <description>Recent content in Categories on Wikispeedia as Social Graphs</description>
+    <description>Recent content in Categories on Project B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://joehans42.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
