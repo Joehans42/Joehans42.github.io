@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>Visualisation</title>
+      <title>Interactive Visualisation</title>
       <link>https://joehans42.github.io/post/visualisation/</link>
       <pubDate>Sun, 05 Dec 2021 20:09:52 +0100</pubDate>
       
       <guid>https://joehans42.github.io/post/visualisation/</guid>
-      <description>-- #mynetwork { width: 500px; height: 500px; background-color: #ffffff; border: 1px solid lightgray; position: relative; float: left; } #loadingBar { position:absolute; top:0px; left:0px; width: 500px; height: 500px; background-color:rgba(200,200,200,0.8); -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; opacity:1; } #bar { position:absolute; top:0px; left:0px; width:20px; height:20px; margin:auto auto auto auto; border-radius:11px; border:2px solid rgba(30,30,30,0.</description>
+      <description>Pyvis To visualise the data, I have used the Python framework, Pyvis. It is an interactive visualisation that allows for zooming in on individual nodes and their edges. What you see on the graph below here is a sample of the entire SNAP data set. Since Python has a hard time plotting and visualising 4604 nodes with 119882 edges, I have simply sampled 2000 edges from the network and plotted them with Pyvis.</description>
     </item>
     
   </channel>

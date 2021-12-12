@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Visualisation | Project B</title>
+    <title>Interactive Visualisation | Project B</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Insight &amp; Motivation">
     <meta name="generator" content="Hugo 0.90.0" />
@@ -26,19 +26,19 @@
 
     
     
-    <meta property="og:title" content="Visualisation" />
+    <meta property="og:title" content="Interactive Visualisation" />
 <meta property="og:description" content="Insight &amp; Motivation" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://joehans42.github.io/post/visualisation/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-12-05T20:09:52+01:00" />
 <meta property="article:modified_time" content="2021-12-05T20:09:52+01:00" />
 
-<meta itemprop="name" content="Visualisation">
+<meta itemprop="name" content="Interactive Visualisation">
 <meta itemprop="description" content="Insight &amp; Motivation"><meta itemprop="datePublished" content="2021-12-05T20:09:52+01:00" />
 <meta itemprop="dateModified" content="2021-12-05T20:09:52+01:00" />
-<meta itemprop="wordCount" content="35172">
+<meta itemprop="wordCount" content="35344">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Visualisation"/>
+<meta name="twitter:title" content="Interactive Visualisation"/>
 <meta name="twitter:description" content="Insight &amp; Motivation"/>
 
 	
@@ -101,7 +101,7 @@
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Visualisation</h1>
+      <h1 class="f1 athelas mt3 mb1">Interactive Visualisation</h1>
       
       
       
@@ -111,7 +111,17 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><html>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="pyvis">Pyvis</h2>
+<p>To visualise the data, I have used the Python framework, Pyvis.
+It is an interactive visualisation that allows for zooming in on individual nodes and their edges.
+What you see on the graph below here is a sample of the entire SNAP data set.
+Since Python has a hard time plotting and visualising 4604 nodes with 119882 edges,
+I have simply sampled 2000 edges from the network and plotted them with Pyvis. One of the consequences of this is of course,
+that we don&rsquo;t get a sense of how fully connected the real network actually is, and there are no nodes with a degree of 0.
+We learned about those things from the analysis, but looking at the plot we see that, while there is a giant connected component with a majority of the nodes,
+there are actually quite a few nodes outside of the GCC connected to only a few other individual nodes.
+We know that this is not the case in the full network.</p>
+<html>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
@@ -307,7 +317,9 @@
 
 </script>
 </body>
-</html><ul class="pa0">
+</html>
+<p><strong>Feel free to zoom in</strong></p>
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
