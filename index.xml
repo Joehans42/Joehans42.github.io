@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project B</title>
+    <title>Wikispeedia: Graphs and Interactions</title>
     <link>https://joehans42.github.io/</link>
-    <description>Recent content on Project B</description>
+    <description>Recent content on Wikispeedia: Graphs and Interactions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Dec 2021 00:13:45 +0100</lastBuildDate><atom:link href="https://joehans42.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -40,8 +40,8 @@
       <pubDate>Sat, 04 Dec 2021 18:40:59 +0100</pubDate>
       
       <guid>https://joehans42.github.io/post/notebook/</guid>
-      <description>Project B Link to the website: https://joehans42.github.io/
-Motivation   The data   The first data set that I am using for this project consists of the list of wikipedia articles, which can be reached in 2 clicks from the Albert Einstein Wikipedia page. This data set has 65233 articles (nodes) with 98707 links between each other (edges). The second data set is a data set from the Stanford Network Analysis Project (SNAP).</description>
+      <description>This is a full page of a converted .ipynb jupyter notebook file including all outputs in full length. Images and other visualisations do not transfer well in this format. This notebook page was created with the nb_hugo_exporter. If you want the real notebook file yourself, you can find it in the google drive zip file under the &amp;ldquo;The Data&amp;rdquo; post elsewhere on this site.
+Project B Link to the website: https://joehans42.</description>
     </item>
     
   </channel>
