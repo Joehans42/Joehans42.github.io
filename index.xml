@@ -6,11 +6,11 @@
     <description>Recent content on Project B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Dec 2021 20:09:52 +0100</lastBuildDate><atom:link href="https://joehans42.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Dec 2021 00:13:45 +0100</lastBuildDate><atom:link href="https://joehans42.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Data</title>
       <link>https://joehans42.github.io/post/data/</link>
-      <pubDate>Thu, 09 Dec 2021 20:09:52 +0100</pubDate>
+      <pubDate>Tue, 07 Dec 2021 20:09:52 +0100</pubDate>
       
       <guid>https://joehans42.github.io/post/data/</guid>
       <description>Introduction The data in this project consists of two separate data sets. The first data set is a list of Wikipedia articles. The Wikipedia articles can be different depending on the choosing of an initial starting page. In this data set however, the initial starting page is pre-selected as the Wikipedia page for Albert Einstein. The first data set is thus a network consisting of the articles that can be reached by clicking the links on the pages within 2 clicks.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Analysis</title>
       <link>https://joehans42.github.io/post/analysis/</link>
-      <pubDate>Wed, 08 Dec 2021 23:57:44 +0100</pubDate>
+      <pubDate>Mon, 06 Dec 2021 23:57:44 +0100</pubDate>
       
       <guid>https://joehans42.github.io/post/analysis/</guid>
       <description>Introduction We have the data, so we should begin by learning a bit about the properties of the networks extracted from the data. The things we are interested in are things like the average degree of a node, the size of the giant components in the data, weak and strong. We also want to know something about the connectivity of the nodes. Which nodes have the highest in- and out-degree? What does the node distribution look like?</description>

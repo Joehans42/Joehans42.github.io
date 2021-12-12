@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://joehans42.github.io/</loc>
-    <lastmod>2021-12-09T20:09:52+01:00</lastmod>
-  </url><url>
-    <loc>https://joehans42.github.io/post/data/</loc>
-    <lastmod>2021-12-09T20:09:52+01:00</lastmod>
-  </url><url>
     <loc>https://joehans42.github.io/post/</loc>
     <lastmod>2021-12-09T00:13:45+01:00</lastmod>
   </url><url>
+    <loc>https://joehans42.github.io/</loc>
+    <lastmod>2021-12-09T00:13:45+01:00</lastmod>
+  </url><url>
+    <loc>https://joehans42.github.io/post/data/</loc>
+    <lastmod>2021-12-07T20:09:52+01:00</lastmod>
+  </url><url>
     <loc>https://joehans42.github.io/post/analysis/</loc>
-    <lastmod>2021-12-08T23:57:44+01:00</lastmod>
+    <lastmod>2021-12-06T23:57:44+01:00</lastmod>
   </url><url>
     <loc>https://joehans42.github.io/categories/</loc>
   </url><url>
