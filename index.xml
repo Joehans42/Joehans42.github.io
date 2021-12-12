@@ -34,5 +34,15 @@
       <description>Pyvis To visualise the data, I have used the Python framework, Pyvis. It is an interactive visualisation that allows for zooming in on individual nodes and their edges. What you see on the graph below here is a sample of the entire SNAP data set. Since Python has a hard time plotting and visualising 4604 nodes with 119882 edges, I have simply sampled 2000 edges from the network and plotted them with Pyvis.</description>
     </item>
     
+    <item>
+      <title>Explainer Notebook</title>
+      <link>https://joehans42.github.io/post/notebook/</link>
+      <pubDate>Sat, 04 Dec 2021 18:40:59 +0100</pubDate>
+      
+      <guid>https://joehans42.github.io/post/notebook/</guid>
+      <description>Project B Link to the website: https://joehans42.github.io/
+Motivation   The data   The first data set that I am using for this project consists of the list of wikipedia articles, which can be reached in 2 clicks from the Albert Einstein Wikipedia page. This data set has 65233 articles (nodes) with 98707 links between each other (edges). The second data set is a data set from the Stanford Network Analysis Project (SNAP).</description>
+    </item>
+    
   </channel>
 </rss>
