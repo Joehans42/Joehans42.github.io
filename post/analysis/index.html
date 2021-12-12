@@ -36,7 +36,7 @@
 <meta itemprop="name" content="Analysis">
 <meta itemprop="description" content="yoo lok at this"><meta itemprop="datePublished" content="2021-12-08T23:57:44+01:00" />
 <meta itemprop="dateModified" content="2021-12-08T23:57:44+01:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="763">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Analysis"/>
 <meta name="twitter:description" content="yoo lok at this"/>
@@ -111,7 +111,73 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>We have the data, so we should begin by learning a bit about the properties of the networks extracted from the data.
+The things we are interested in are things like the average degree of a node, the size of the giant components in the data, weak and strong.
+We also want to know something about the connectivity of the nodes. Which nodes have the highest in- and out-degree?
+What does the node distribution look like? Lastly we would like to visualise the networks as best as possible.
+To this end we will be using some special Python packages.</p>
+<h2 id="network-properties">Network properties</h2>
+<p>From the analysis of the SNAP data set we find out a few key things:</p>
+<ul>
+<li>The average degree of a node is ~52.21</li>
+<li>The size of the largest weakly connected component is 4589</li>
+<li>The size of the largest strongly connected component is 4051</li>
+</ul>
+<p>What information we gather from this analysis is, that the network seems to be highly connected, with the average node having a degree of just about 52.
+It is possible that there are a few amount nodes with very high degree and then many nodes with next to no connections.
+However, when we then look at the Giant Connected Components we see that almost all of the 4604 nodes are included in the weakly connected component.
+This means that there are very few nodes with a degree of 0, and looking at the node distribution later in the visualisation section it is also clear,
+that most nodes are highly connected.</p>
+<p>The nodes that seem to be the most connected are:</p>
+<ul>
+<li>In terms of degree
+<ol>
+<li>United States with a degree of 1845</li>
+<li>United Kingdom with a degree of 1140</li>
+<li>Europe with a degree of 1092</li>
+<li>France with a degree of 1044</li>
+<li>England with a degree of 923</li>
+</ol>
+</li>
+<li>In terms of in degree:
+<ol>
+<li>United States with a degree of 1551</li>
+<li>United Kingdom with a degree of 972</li>
+<li>France with a degree of 959</li>
+<li>Europe with a degree of 933</li>
+<li>World War II with a degree of 751</li>
+</ol>
+</li>
+<li>In terms of out degree:
+<ol>
+<li>United States with a degree of 294</li>
+<li>Driving on the left or right with a degree of 255</li>
+<li>List of countries with a degree of 244</li>
+<li>List of circulating currencies with a degree of 236</li>
+<li>List of sovereign states with a degree of 216</li>
+</ol>
+</li>
+</ul>
+<p>What I really wanted to take away from this data set, is what kind of nodes are the most connected in this network.
+This is only the top 5, however, the top 20 are listed in the explainer notebook, and when looking at the top 20 nodes in terms of degree it is very clear.
+Countries are the most connected articles in the data, followed closely by categories such as &lsquo;English Language&rsquo;,
+&lsquo;Scientific classification&rsquo; and &lsquo;Animal&rsquo;. And this makes sense from a speedrunning perspective.
+Generally you want to get to countries, because important events, things or people from a given country is often linked in the country&rsquo;s article.
+Another reason why you would want to click on a country is, that it&rsquo;s easy to get to other countries and thus to things from all across the world.
+Categories also make sense to click on. If you need to find a specific animal like a fox or wolf, it&rsquo;d be useful to get to &lsquo;Animal&rsquo;,
+since you then have access to every single animal family there is from there.</p>
+<p>The last thing I want to point out is, that it seems many of the countries have a high in-degree compared to out-degree.
+This would imply that there are a lot of paths that <strong>come</strong> from many different smaller nodes but lead <strong>away</strong> from the node through the same links.
+You could also say that there are of course a lot of smaller pages that link to more general pages such as country, which do not link back.
+An example could be a celebrity who is from the United States will almost certainly have a link to &lsquo;United States&rsquo;,
+but &lsquo;United States&rsquo; will likely not have a link back. Pages are of course also limited by the amount of links they actually have.
+If we take the United States as an example again.
+While we have 1845 links to the page in our data set alone (there are a lot more in all of Wikipedia no doubt),
+the out-degree of the page itself is upperbounded by how many links are actually on the page.
+But the point is that these big countries naturally become hubs, since they can be reached from so many different pages.</p>
+<h2 id="visualisation">Visualisation</h2>
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">

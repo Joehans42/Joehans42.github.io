@@ -22,7 +22,7 @@
       <pubDate>Wed, 08 Dec 2021 23:57:44 +0100</pubDate>
       
       <guid>https://joehans42.github.io/post/analysis/</guid>
-      <description></description>
+      <description>Introduction We have the data, so we should begin by learning a bit about the properties of the networks extracted from the data. The things we are interested in are things like the average degree of a node, the size of the giant components in the data, weak and strong. We also want to know something about the connectivity of the nodes. Which nodes have the highest in- and out-degree? What does the node distribution look like?</description>
     </item>
     
   </channel>
