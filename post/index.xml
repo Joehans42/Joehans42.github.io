@@ -25,5 +25,14 @@
       <description>Introduction We have the data, so we should begin by learning a bit about the properties of the networks extracted from the data. The things we are interested in are things like the average degree of a node, the size of the giant components in the data, weak and strong. We also want to know something about the connectivity of the nodes. Which nodes have the highest in- and out-degree? What does the node distribution look like?</description>
     </item>
     
+    <item>
+      <title>Visualisation</title>
+      <link>https://joehans42.github.io/post/visualisation/</link>
+      <pubDate>Sun, 05 Dec 2021 20:09:52 +0100</pubDate>
+      
+      <guid>https://joehans42.github.io/post/visualisation/</guid>
+      <description>-- #mynetwork { width: 500px; height: 500px; background-color: #ffffff; border: 1px solid lightgray; position: relative; float: left; } #loadingBar { position:absolute; top:0px; left:0px; width: 500px; height: 500px; background-color:rgba(200,200,200,0.8); -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; opacity:1; } #bar { position:absolute; top:0px; left:0px; width:20px; height:20px; margin:auto auto auto auto; border-radius:11px; border:2px solid rgba(30,30,30,0.</description>
+    </item>
+    
   </channel>
 </rss>
